@@ -1,5 +1,6 @@
 ## these two fuctions are used to calculate the inverse of a matrix by caching the
 ## original matrix, so that the computation can be faster
+#.
 
 ## makeCacheMatrix is a function that creates the list of 4 other functions.
 makeCacheMatrix <- function(x = matrix()) {
